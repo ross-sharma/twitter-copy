@@ -1,0 +1,772 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #C0DEED;
+}
+
+.header {
+  height: 46px;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(216, 216, 216, 1);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(216, 216, 216, 1);
+  box-shadow: 0px 1px 1px 0px rgba(216, 216, 216, 1);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+
+.header-content {
+  #outline: 1px solid black;
+  width: 1168px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  left: -4px;
+}
+
+global-actions {
+  float: left;
+}
+
+.global-actions li {
+  float: left;
+  display: block;
+  height: 46px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 120px;
+  #outline: 1px solid black;
+}
+
+.global-actions-button-content {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.global-actions li:nth-child(1) {
+  width: 86px;
+}
+
+.global-actions li p {
+  color: #66757F;
+  font-size: 13px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.global-actions li span {
+  float: left;
+}
+
+.global-actions-button-content span {
+  display: inline-block;
+  height: 19px;
+}
+
+#home-icon {
+  width: 22px;
+  background-image: url('https://i.imgur.com/c4JYMXF.png');
+}
+
+#notifications-icon {
+  width: 17px;
+  background-image: url('https://i.imgur.com/ktVp2g3.png');
+}
+
+#messages-icon {
+  width: 21px;
+  background-image: url('https://i.imgur.com/4jKfV9w.png');
+}
+
+.button-bottom-highlight,
+.global-actions li:hover .button-bottom-highlight-inactive {
+  float: left;
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: #0084B4;
+  transition: bottom 0.2s ease;
+}
+
+.global-actions li .button-bottom-highlight-inactive {
+  background-color: #0084B4;
+  position: absolute;
+  #outline: 1px solid black;
+  width: 100%;
+  height: 4px;
+  bottom: -4px;
+  transition: bottom 0.2s ease;
+}
+
+.global-actions li:nth-child(3) .button-bottom-highlight-inactive{
+  width: 90%;
+}
+
+.selected-dot {
+  color: #0084B4;
+  background-image: url('https://i.imgur.com/vk4JthB.png');
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  width: 7px;
+  height: 6px;
+}
+
+.compose-tweet {
+  background-color: #329BC2;
+  border-radius: 4px;
+  width: 90px;
+  height: 32px;
+  border: none;
+  color: white;
+  float: right;
+  margin-top: 7px;
+}
+
+.compose-tweet:hover {
+  background: linear-gradient(0deg, #007099, #0082B2);
+}
+
+.compose-tweet p {
+  float: left;
+  margin-top: 4px;
+  margin-left: 3px;
+}
+
+.compose-tweet span {
+  background-image: url('https://i.imgur.com/ue2T1Ue.png');
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  float: left;
+}
+
+.compose-tweet .wrap {
+  position: relative;
+  left: 7px;
+  cursor: pointer;
+}
+
+.search {
+  float: right;
+  width: 200px;
+  background-color: #F5F8FA;
+  border: 1px solid #E1E8ED;
+  border-radius: 18px;
+  padding: 6px 0px 6px 15px;
+  margin-top: 7px;
+}
+
+.search span {
+  background-image: url('https://i.imgur.com/rXmfjhn.png');
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.search input {
+  float: left;
+  background-color: #F5F8FA;
+  margin-right: 5px;
+  border: none;
+}
+
+.header .profile-picture-small {
+  float: right;
+  margin-top: 7px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: 1px solid #E4E4E4;
+  cursor: pointer;
+}
+
+.page-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 48px;
+  height: auto;
+  #outline: 2px solid black;
+}
+
+.header .logo {
+  float: right;
+  margin-top: 13px;
+  margin-right: 210px;
+}
+
+.subtext {
+  color: #8899A6;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #0084B4;
+}
+
+h1 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #66757F;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.left-sidebar {
+  float: left;
+  width: 290px;
+  #border: 1px solid black;
+}
+
+.top-level-panel {
+  border-radius: 6px;
+  border: 1px solid #E1E8ED;
+  margin: 10px;
+}
+
+.user-summary {
+  height: 194px;
+}
+
+.trending {
+  padding: 15px;
+  font-size: 13px;
+  line-height: 17px;
+  background: white;
+}
+
+.trending h1 {
+  float: left;
+  display: inline;
+}
+
+.trending h1:after {
+  content: " · ";
+}
+
+.change-trends {
+  float: left;
+  display: inline;
+  margin-top: 4px;
+  margin-left: 3px;
+}
+
+.trend {
+  margin-top: 12px;
+}
+
+.trending-hashtag {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0px;
+}
+
+.trending li a:hover {
+  text-decoration: none;
+}
+
+.trend-description {
+  color: black;
+}
+
+.user-info-wrap {
+  margin-top: 55px;
+}
+
+.user-summary {
+  padding: 10px;
+  background: linear-gradient(0deg, white 50%, #0084B4 50%);
+  height: 170px;
+}
+
+.profile-picture {
+  float: left;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.username-wrap {
+  margin-top: 38px;
+  float: left;
+  margin-left: 4px;
+}
+
+.user-summary .display-name {
+  color: black;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user-summary .username {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(102, 117, 127);
+}
+
+.user-summary li {
+  display: block;
+  float: left;
+}
+
+.user-stats {
+  margin-top: 14px;
+  float: left;
+  #border: 1px solid black;
+}
+
+.user-stats li:nth-child(1) {
+  width: 77px;
+}
+
+.user-stats li:nth-child(2) {
+  width: 77px;
+}
+
+.user-stats li:nth-child(3) {
+  width: 77px;
+}
+
+.user-summary li a {
+  display: block;
+}
+
+.user-summary li a:hover {
+  color: #0084B4;
+  text-decoration: none;
+}
+
+.user-stats-header {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgb(140, 156, 169);
+}
+
+.user-stats-value {
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.central-content {
+  float: left;
+  width: 588px;
+  margin-left: 0px;
+  background: white;
+}
+
+.tweet-feed li {
+  #width: 568px;
+  padding: 10px 13px;
+  border-bottom: 1px solid #E1E8ED;
+}
+
+.tweet-feed li:last-child {
+  border-bottom: none;
+}
+
+.new-tweet {
+  background-color: #E5F2F7;
+  height: 40px;
+}
+
+.profile-picture-small {
+  width: 32px;
+  height: 32px;
+  margin-left: 12px;
+  margin-top: 2px;
+  float: left;
+}
+
+.tweet-input-wrap {
+  background-color: white;
+  width: 505px;
+  height: 35px;
+  float: left;
+  margin-left: 8px;
+  border-radius: 3px;
+  border: 1px solid #BFE0EC;
+}
+
+.tweet-input-wrap input {
+  height: 33px;
+  line-height: 35px;
+  width: 90%;
+  float: left;
+  margin-left: 5px;
+  border: none;
+}
+
+.tweet-input-wrap input::-webkit-input-placeholder {
+  color: #0084B4;
+  font-size: 14px;
+}
+
+.attach-photo {
+  margin-top: 6px;
+  margin-left: 3px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.view-new-tweets {
+  #height: 30px;
+  background-color: #F5F8FA;
+  cursor: pointer;
+}
+
+.view-new-tweets:hover {
+  background-color: #E1E8ED;
+}
+
+.view-new-tweets p {
+  color: #0084B4;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.tweet-profile-thumbnail {
+  border-radius: 5px;
+  width: 48px;
+  height: 48px;
+  float: left;
+  cursor: pointer;
+}
+
+.tweet-display-name {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tweet-display-name:hover,
+.tweet-time:hover {
+  color: #0084B4;
+}
+
+.tweet-username,
+.tweet-time {
+  color: #8899A6;
+  font-size: 13px;
+}
+
+.tweet .tweet-username:after {
+  content: " · "
+}
+
+.tweet-username:hover {
+  text-decoration: none;
+}
+
+.tweet:hover {
+  background-color: #F5F8FA;
+}
+
+.tweet-content-wrap {
+  float: right;
+  margin-left: 10px;
+  margin-right: 20px;
+  width: 480px;
+  #border: 1px solid black;
+}
+
+.tweet-text {
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 3px;
+}
+
+.external-link {
+  font-size: 15px;
+}
+
+.tweet-action-buttons li {
+  border-bottom: none;
+  float: left;
+  padding-left: 0;
+  padding-bottom: 0;
+  #border: 1px solid black;
+  #position: relative;
+  #top: -10px;
+  #overflow: hidden;
+}
+
+.tweet-action-buttons li:nth-child(3) img {
+  position: relative;
+  top: -2px;
+}
+
+.view-media {
+  float: right;
+  font-size: 12px;
+  position: relative;
+  width: 100px;
+  top: 10px;
+  right: -50px;
+}
+
+.tweet-photo {
+  border-radius: 6px;
+  width: 500px;
+  overflow: auto;
+  height: 275px;
+  margin-top: 10px;
+}
+
+.tweet-action-buttons li span {
+  font-size: 13px;
+  font-weight: bold;
+  color: #88A5C4;
+  position: relative;
+  top: -10px;
+}
+
+.tweet-action-buttons li:nth-child(2) span {
+  position: relative;
+  top: -7px;
+}
+
+.right-sidebar {
+  position: relative;
+  right: 8px;
+  #outline: 1px solid black;
+  width: 300px;
+  float: left;
+}
+
+.who-to-follow,
+.footer {
+  float: left;
+  width: 288px;
+  background: white;
+}
+
+.who-to-follow-header {
+  height: 30px;
+  display: block;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  #outline: 1px solid black;
+}
+
+.who-to-follow-header li {
+  float: left;
+  margin-right: 4px;
+  #padding-left: 10px;
+  #padding-right: 10px;
+}
+
+.who-to-follow-header a {
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.who-to-follow-header li:nth-child(2):before,
+.who-to-follow-header li:nth-child(2):after {
+  content: " · "
+}
+
+.who-to-follow-list li {
+  margin-top: 10px;
+  #outline: 1px solid black;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.verified {
+  width: 18px;
+  height: 18px;
+  background: url('https://i.imgur.com/COIJYer.gif');
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  margin: 0px 1px;
+  cursor: pointer;
+}
+
+.who-to-follow-line-wrap {
+  display: inline-block;
+  width: 183px;
+  #height: 22px;
+  #outline: 1px solid black;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 17px;
+  #position: relative;
+  #top: 2px;
+  float: left;
+  font-size: 13px;
+  color: #8899A6;
+}
+
+.who-to-follow-display-name {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.who-to-follow-line-wrap .username-mention {
+  font-size: 13px;
+}
+
+.who-to-follow-list .tweet-profile-thumbnail {
+  margin-right: 10px;
+}
+
+.close-icon {
+  float: right;
+  position: relative;
+  top: 6px;
+  left: 6px;
+}
+
+.follow {
+  background: linear-gradient(0deg, #F5F8FA, white);
+  border: 1px solid #E1E8ED;
+  border-radius: 5px;
+  padding: 5px 12px;
+  width: 64px;
+  height: 19px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  cursor: pointer;
+  float: left;
+  margin-top: 5px;
+}
+
+.follow img {
+  margin-top: 3px;
+  position: relative;
+  right: 2px;
+  #outline: 1px solid black;
+}
+
+.follow p {
+  float: right;
+  color: black;
+  position: relative;
+  top: 1px;
+  #outline: 1px solid black;
+}
+
+.follow:hover {
+  background: linear-gradient(0deg, #E1E8ED, white);
+}
+
+.who-to-follow-right-wrap {
+  float: left;
+}
+
+.promoted {
+  font-size: 12px;
+  line-height: 15px;
+  #outline: 1px solid black;
+  display: inline;
+  margin-left: 10px;
+  position: relative;
+  top: 13px;
+}
+
+.promoted a {
+  color: #8899A6;
+}
+
+.promoted-icon {
+  background: url('https://i.imgur.com/dvMTRPH.png');
+  width: 15px;
+  height: 12px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-right: 4px;
+}
+
+.who-to-follow-list .find-people {
+  border-top: 1px solid #E1E8ED;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 15px;
+  #outline: 1px solid black;
+}
+
+.find-people {
+  background-color: #F5F8FA;
+}
+
+.find-people-gmail img {
+  float: left;
+  border: 1px solid #E1E8ED;
+  padding: 8px 7px;
+  #outline: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.find-people-gmail:hover {
+  text-decoration: none;
+}
+
+.find-people h1 {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #292F33;
+  display: block;
+}
+
+.find-people .subtext {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.connect-other-address-books {
+  font-size: 13px;
+  margin: 0px 15px;
+  #outline: 1px solid black;
+  border-top: 1px solid #E1E8ED;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.footer {
+  float: left;
+  #outline: 1px solid black;
+  width: 258px;
+  margin-left: 10px;
+  margin-top: 0px;
+  padding: 15px 15px;
+}
+
+.footer li {
+  float: left;
+  display: block;
+  margin-right: 8px;
+}
+
+.footer a {
+  font-size: 12px;
+  line-height: 17px;
+  color: #8899A6;
+}
