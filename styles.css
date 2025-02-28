@@ -16,7 +16,6 @@ body {
 }
 
 .header-content {
-  #outline: 1px solid black;
   width: 1168px;
   height: 100%;
   margin: 0 auto;
@@ -36,7 +35,6 @@ global-actions {
   position: relative;
   overflow: hidden;
   width: 120px;
-  #outline: 1px solid black;
 }
 
 .global-actions-button-content {
@@ -94,7 +92,6 @@ global-actions {
 .global-actions li .button-bottom-highlight-inactive {
   background-color: #0084B4;
   position: absolute;
-  #outline: 1px solid black;
   width: 100%;
   height: 4px;
   bottom: -4px;
@@ -191,7 +188,6 @@ global-actions {
   margin: 0 auto;
   margin-top: 48px;
   height: auto;
-  #outline: 2px solid black;
 }
 
 .header .logo {
@@ -227,7 +223,6 @@ a:hover {
 .left-sidebar {
   float: left;
   width: 290px;
-  #border: 1px solid black;
 }
 
 .top-level-panel {
@@ -324,7 +319,6 @@ a:hover {
 .user-stats {
   margin-top: 14px;
   float: left;
-  #border: 1px solid black;
 }
 
 .user-stats li:nth-child(1) {
@@ -367,7 +361,6 @@ a:hover {
 }
 
 .tweet-feed li {
-  #width: 568px;
   padding: 10px 13px;
   border-bottom: 1px solid #E1E8ED;
 }
@@ -423,7 +416,6 @@ input:focus {
 }
 
 .view-new-tweets {
-  #height: 30px;
   background-color: #F5F8FA;
   cursor: pointer;
 }
@@ -481,7 +473,6 @@ input:focus {
   margin-left: 10px;
   margin-right: 20px;
   width: 480px;
-  #border: 1px solid black;
 }
 
 .tweet-text {
@@ -499,10 +490,6 @@ input:focus {
   float: left;
   padding-left: 0;
   padding-bottom: 0;
-  #border: 1px solid black;
-  #position: relative;
-  #top: -10px;
-  #overflow: hidden;
 }
 
 .tweet-action-buttons li:nth-child(3) img {
@@ -543,7 +530,6 @@ input:focus {
 .right-sidebar {
   position: relative;
   right: 8px;
-  #outline: 1px solid black;
   width: 300px;
   float: left;
 }
@@ -561,14 +547,11 @@ input:focus {
   position: relative;
   top: 15px;
   left: 15px;
-  #outline: 1px solid black;
 }
 
 .who-to-follow-header li {
   float: left;
   margin-right: 4px;
-  #padding-left: 10px;
-  #padding-right: 10px;
 }
 
 .who-to-follow-header a {
@@ -583,7 +566,6 @@ input:focus {
 
 .who-to-follow-list li {
   margin-top: 10px;
-  #outline: 1px solid black;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -602,14 +584,10 @@ input:focus {
 .who-to-follow-line-wrap {
   display: inline-block;
   width: 183px;
-  #height: 22px;
-  #outline: 1px solid black;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   line-height: 17px;
-  #position: relative;
-  #top: 2px;
   float: left;
   font-size: 13px;
   color: #8899A6;
@@ -656,7 +634,6 @@ input:focus {
   margin-top: 3px;
   position: relative;
   right: 2px;
-  #outline: 1px solid black;
 }
 
 .follow p {
@@ -664,7 +641,6 @@ input:focus {
   color: black;
   position: relative;
   top: 1px;
-  #outline: 1px solid black;
 }
 
 .follow:hover {
@@ -678,7 +654,6 @@ input:focus {
 .promoted {
   font-size: 12px;
   line-height: 15px;
-  #outline: 1px solid black;
   display: inline;
   margin-left: 10px;
   position: relative;
@@ -704,7 +679,6 @@ input:focus {
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 15px;
-  #outline: 1px solid black;
 }
 
 .find-people {
@@ -715,7 +689,6 @@ input:focus {
   float: left;
   border: 1px solid #E1E8ED;
   padding: 8px 7px;
-  #outline: 1px solid black;
   border-radius: 3px;
   background-color: white;
   margin-left: 15px;
@@ -743,7 +716,6 @@ input:focus {
 .connect-other-address-books {
   font-size: 13px;
   margin: 0px 15px;
-  #outline: 1px solid black;
   border-top: 1px solid #E1E8ED;
   display: block;
   padding-top: 10px;
@@ -752,7 +724,6 @@ input:focus {
 
 .footer {
   float: left;
-  #outline: 1px solid black;
   width: 258px;
   margin-left: 10px;
   margin-top: 0px;
